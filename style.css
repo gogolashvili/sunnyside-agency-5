@@ -9,17 +9,20 @@
   background-image: url("./photo/foni1.png");
   background-position: center;
   background-size: cover;
+  overflow: auto;
 }
 header {
   display: flex;
   justify-content: space-between;
   width: 90%;
   height: 56px;
-  margin: 0 auto;
-  margin-top: 35px;
+  margin: 35px auto;
 }
 .divheader {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 .contact {
   font-family: "Fraunces", serif;
