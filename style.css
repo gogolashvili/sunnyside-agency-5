@@ -73,3 +73,52 @@ h1 {
   text-transform: uppercase;
   color: #ffffff;
 }
+.sect2left {
+  width: 50%;
+  height: 100%;
+}
+.kvercxi {
+  width: 50%;
+  height: 100%;
+}
+.sect2 {
+  display: flex;
+  width: 100%;
+  height: 14.4%;
+}
+h2 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: -0.285714px;
+  color: #24303e;
+}
+p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.128571px;
+  color: #808397;
+}
+h3 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24303e;
+}
+.line {
+  background: #fad400;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border-radius: 28px;
+  width: 137px;
+  height: 10px;
+}
