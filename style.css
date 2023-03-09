@@ -349,3 +349,25 @@ footer {
   display: flex;
   gap: 30px;
 }
+@media (max-width: 376px) {
+  .mainCont {
+    max-width: 375px;
+    height: 5220px;
+  }
+  .sect2 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .kvercxi {
+    width: 100%;
+  }
+  /* .sect2left {
+    width: 100%;
+  } */
+  .sect3 {
+    flex-wrap: wrap;
+  }
+  .sect4 {
+    flex-wrap: wrap;
+  }
+}
