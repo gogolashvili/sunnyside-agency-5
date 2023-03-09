@@ -10,6 +10,11 @@
   background-position: center;
   background-size: cover;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 85px;
 }
 header {
   display: flex;
@@ -20,7 +25,8 @@ header {
 }
 .divheader {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 500px;
   align-items: center;
   align-content: center;
 }
@@ -32,7 +38,7 @@ header {
   line-height: 25px;
   letter-spacing: -0.107143px;
   text-transform: uppercase;
-  color: #24303e;
+  color: #2f65a3;
   background-color: #ffffff;
   border-radius: 28px;
   border: none;
@@ -51,4 +57,19 @@ ul {
   color: #ffffff;
   display: flex;
   gap: 50px;
+}
+.isari {
+  width: 30px;
+  height: 105px;
+}
+h1 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 69px;
+  text-align: center;
+  letter-spacing: 8.75px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
