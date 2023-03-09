@@ -2,6 +2,7 @@
   max-width: 1440px;
   width: 100%;
   height: 4174px;
+  margin: 0 auto;
 }
 .sect1 {
   width: 100%;
@@ -48,7 +49,7 @@ header {
   height: 33px;
 }
 ul {
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -76,11 +77,19 @@ h1 {
 .sect2left {
   width: 50%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 40px;
 }
+
 .kvercxi {
   width: 50%;
   height: 100%;
 }
+
 .sect2 {
   display: flex;
   width: 100%;
@@ -96,13 +105,15 @@ h2 {
   color: #24303e;
 }
 p {
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: -0.128571px;
   color: #808397;
+  width: 70%;
+  text-align: center;
 }
 h3 {
   font-family: "Fraunces", serif;
@@ -121,4 +132,101 @@ h3 {
   border-radius: 28px;
   width: 137px;
   height: 10px;
+  margin-top: -10px;
+}
+.divlearn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.divsect2text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.sect3 {
+  display: flex;
+  width: 100%;
+  height: 14.4%;
+}
+.sect3right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.chiqa {
+  width: 50%;
+  height: 100%;
+}
+.sect4 {
+  display: flex;
+  width: 100%;
+  height: 14.4%;
+}
+.bali {
+  width: 50%;
+  height: 100%;
+  background-image: url("./photo/bali.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-content: center;
+  align-items: center;
+}
+.mandarini {
+  width: 50%;
+  height: 100%;
+  background-image: url("./photo/mandarini.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-content: center;
+  align-items: center;
+}
+h4 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #24554a;
+}
+h5 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  color: #3e7467;
+}
+.inbali {
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.inmandarini {
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
