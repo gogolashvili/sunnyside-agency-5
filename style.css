@@ -254,9 +254,29 @@ h6 {
 .divcards {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
 }
 .cardimg {
   width: 72px;
   height: 72px;
+}
+.card {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 58px;
+  width: 25%;
+}
+.cardtext {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #a7aaad;
 }
